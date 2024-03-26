@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="heading-top">
+        <h1>
+            Rock Paper Scissors
+        </h1>
+        <h3>
+            Try your luck!
+        </h3>
+        <div class="chances">
+            <span>Time : </span>
+            <span class="timer"> 30</span>
+        </div>
+
+    </div>
+    <div class="cols">
+        <div class="left">
+            <span class="score user">You : 0 </span>
+            <div class="icon icon1"><span>✊</span></div>
+        </div>
+        <div class="right">
+            <span class="score comp">Computer : 0</span>
+            <div class="icon icon2"><span>✌️</span></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <h3>
+            Choose one!
+        </h3>
+        <div class="options">
+            <span onclick="startGame('✊')">✊</span>
+            <span onclick="startGame('🤚')">🤚</span>
+            <span onclick="startGame('✌️')">✌️</span>
+        </div>
+    </div>
+    <h4>Message!</h4>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
